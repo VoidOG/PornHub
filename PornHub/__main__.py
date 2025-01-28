@@ -9,6 +9,7 @@ from PornHub.bot import PornHub
 from PornHub.plugins import loadModule
 from pyrogram import idle
 from asyncio import get_event_loop_policy
+from logging.handlers import RotatingFileHandler
 
 LOG_FILE_NAME = "PhLogs.txt"
 timezone = pytz.timezone('Asia/Jakarta')
